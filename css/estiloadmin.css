@@ -1,0 +1,20 @@
+body{
+    overflow: hidden;
+    font-family: "Reddit Mono", monospace;
+    font-weight: 300;
+}
+
+#sidebar-container{
+    min-height: 100vh;
+    padding: 0.875rem;
+    width: 18rem;
+    background-color:black;
+}
+
+#logo{
+    padding: 1.25rem;
+}
+
+#menu{
+    width: 18rem;
+}
