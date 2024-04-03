@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1b1726;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0px auto;
+}
+
+.header {
+    background-image: url(img/header.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 0px 0;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: orangered;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: orangered;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    display: flex;
+}
+
+.header-txt {
+    flex-basis: 50%;
+}
+
+.header-txt h1 {
+    font-size: 60px;
+    color: white;
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+
+.header-txt span {
+    color: orangered;
+}
+
+.header-txt p {
+    font-size: 17px;
+    color: #E0E0E0;
+    margin-bottom: 45px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn-1, .btn-2, .btn-3 {
+    display: inline-block;
+    padding: 11px 35px;
+    border: 2px solid orangered;
+    border-radius: 25px;
+    margin-right: 25px;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.btn-1:hover {
+    background-color: orangered;
+}
+
+.popular {
+    padding: 100px 0;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+
+.popular-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-content img {
+    width: 200px;
+    height: 300px;
+}
+
+.product-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.product-1 {
+    background-color: #2A223A;
+}
+
+.product-txt {
+    padding: 50px 30px;
+}
+
+h3 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price p {
+    font-size: 17px;
+    color: orangered;
+}
+
+.btn-2 {
+    padding: 5px 25px;
+    background-color: orangered;
+    margin-right: 0;
+}
+
+.contact {
+    padding: 150px 300px;
+}
+
+.contact-content {
+    background-color: #2A223A;
+    text-align: center;
+    padding: 50px;
+    border-radius: 50px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input {
+    padding: 18px 25px;
+    background-color: #3f3456;
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    margin-right: 10px;
+    color: white;
+    font-size: 17px;
+}
+
+::placeholder {
+    color: #E0E0E0;
+    font-size: 17px;
+}
+
+.btn-3 {
+    background-color: orangered;
+    cursor: pointer;
+    margin-right: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.link ul {
+    display: flex;
+}
+
+.link ul li > a {
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+}
+
+.link ul li > a:hover {
+    color: #ff5a2c;
+}
