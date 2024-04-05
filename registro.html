@@ -10,80 +10,76 @@
 </head>
 
 <body>
-    <div class="container-fluid row">
-        <div class="col-sm-8">
-            <a class="volverconlogo" href="index.html"></a>
-            <img src="img/logo.png" alt="logo" height="128" width="128" class="p-4 rounded-circle">
-            </a>
+    <header class="header">
+        <div class="menu container">
+            <a href="index.html"><img src="img/logo.png" alt="logo" height="128" width="128" class="p-4 rounded-circle"></a>
+            <nav class="navbar">
+                <ul>
+                    <li><img src="img/instagram.png" alt="instagram" height="70" width="70" class="p-1"></li>
+                    <li><img src="img/facebook.png" alt="facebook" height="70" width="70" class="p-1"></li>
+                    <li><img src="img/twitter.png" alt="twitter" height="70" width="70" class="p-1"></li>
+                    <li><img src="img/correo.png" alt="instagram" height="70" width="70" class="p-1"></li>
+                </ul>
+            </nav>
         </div>
-        <div class="col-sm-4">
-            <img src="img/instagram.jpg" alt="instagram" height="70" width="70" class="p-1">
-            <img src="img/facebook.png" alt="facebook" height="70" width="70" class="p-1">
-            <img src="img/twitter.jpg" alt="twitter" height="70" width="100" class="p-1">
-            <img src="img/correo.png" alt="instagram" height="70" width="70" class="p-1">
-        </div>
-    </div>
-    <div class="mt-4 p-5 negro text-white rounded row justify-content-center centrartexto align-items-center g-2 mt-2">
-        <div>
-            <a class="volverconlogo" href="index.html"></a>
-            <img src="img/logo.png" alt="logo" height="128" width="128" class="mx-auto d-block rounded-circle">
-            </a>
-            <form action="/action_page.php">
-                <div class="mb-3 mt-3">
-                    <label for="email" class="form-label">Nombre de usuario</label>
-                    <input type="email" class="form-control" id="email" placeholder="Ingresa usuario" name="email">
-                </div>
-                <div class="mb-3">
-                    <label for="pwd" class="form-label">Contraseña:</label>
-                    <input type="password" class="form-control" id="pwd" placeholder="Ingresa contraseña" name="pswd">
-                </div>
-                <div class="mb-3">
-                    <label for="pwd" class="form-label">Confirmar contraseña:</label>
-                    <input type="password" class="form-control" id="pwd" placeholder="Ingresa contraseña" name="pswd">
-                </div>
-                <div class="mb-3">
-                    <label for="nombre" class="form-label">Nombre real:</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa nombre real" name="nombre">
-                </div>
-                <div class="mb-3">
-                    <label for="apellido" class="form-label">Apellido:</label>
-                    <input type="text" class="form-control" id="apellido" placeholder="Ingresa apellido"
-                        name="apellido">
-                </div>
-                <div class="mb-3">
-                    <label for="number" class="form-label">Telefono:</label>
-                    <input type="number" class="form-control" id="telefono" placeholder="Ingresa telefono sin el +56"
-                        name="number">
-                </div>
-                <div class="mb-3">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-primary dropdown-toggle"
-                            data-bs-toggle="dropdown">Region</button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Tablet</a>
-                            <a class="dropdown-item" href="#">Smartphone</a>
+    <header>
+        <section class="popular container">
+            <div class="mt-4 p-5 fondo text-white rounded row justify-content-center centrartexto align-items-center g-2 mt-2">
+                <div>
+                    <a class="volverconlogo" href="index.html"></a>
+                    <img src="img/logo.png" alt="logo" height="128" width="128" class="mx-auto d-block rounded-circle">
+                    </a>
+                    <form action="/action_page.php">
+                        <div class="mb-3 mt-3">
+                            <label for="email" class="form-label">Nombre de usuario</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingresa usuario" name="email">
                         </div>
-                    </div>
-                </div>
-                <div class="mb-3">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-primary dropdown-toggle"
-                            data-bs-toggle="dropdown">Comuna</button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Tablet</a>
-                            <a class="dropdown-item" href="#">Smartphone</a>
+                        <div class="mb-3">
+                            <label for="pwd" class="form-label">Contraseña:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Ingresa contraseña" name="pswd">
                         </div>
-                    </div>
+                        <div class="mb-3">
+                            <label for="pwd" class="form-label">Confirmar contraseña:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Ingresa contraseña" name="pswd">
+                        </div>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre real:</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingresa nombre real" name="nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="apellido" class="form-label">Apellido:</label>
+                            <input type="text" class="form-control" id="apellido" placeholder="Ingresa apellido"
+                                name="apellido">
+                        </div>
+                        <div class="mb-3">
+                            <label for="number" class="form-label">Telefono:</label>
+                            <input type="number" class="form-control" id="telefono" placeholder="Ingresa telefono sin el +56"
+                                name="number">
+                        </div>
+                        <div class="mb-3">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary dropdown-toggle"
+                                    data-bs-toggle="dropdown">Region</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Tablet</a>
+                                    <a class="dropdown-item" href="#">Smartphone</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary dropdown-toggle"
+                                    data-bs-toggle="dropdown">Comuna</button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Tablet</a>
+                                    <a class="dropdown-item" href="#">Smartphone</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="confirmacion.html" class="btn btn-primary" role="button" data-bs-toggle="button">Crear cuenta</a>
+                    </form>
                 </div>
-                <a href="confirmacion.html" class="btn btn-primary" role="button" data-bs-toggle="button">Crear cuenta</a>
-            </form>
-        </div>
-    </div>
-    <div class="p-2 plomo text-white rounded row justify-content-left align-items-left g-2 mt-2">
-        <div class="mb-3">
-            <a href="index.html" class="btn btn-primary" role="button" data-bs-toggle="button">Volver al inicio</a>
-        </div>
-    </div>
+        </section>
 </body>
 
 </html>

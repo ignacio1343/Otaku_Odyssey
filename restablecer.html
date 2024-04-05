@@ -10,34 +10,33 @@
 </head>
 
 <body>
-    <div class="container-fluid row">
-        <div class="col-sm-8">
-            <a class="volverconlogo" href="index.html"></a>
-            <img src="img/logo.png" alt="logo" height="128" width="128" class="p-4 rounded-circle">
-            </a>
+    <header class="header">
+        <div class="menu container">
+            <a href="index.html"><img src="img/logo.png" alt="logo" height="128" width="128" class="p-4 rounded-circle"></a>
+            <nav class="navbar">
+                <ul>
+                    <li><img src="img/instagram.png" alt="instagram" height="70" width="70" class="p-1"></li>
+                    <li><img src="img/facebook.png" alt="facebook" height="70" width="70" class="p-1"></li>
+                    <li><img src="img/twitter.png" alt="twitter" height="70" width="70" class="p-1"></li>
+                    <li><img src="img/correo.png" alt="instagram" height="70" width="70" class="p-1"></li>
+                </ul>
+            </nav>
         </div>
-        <div class="col-sm-4">
-            <img src="img/instagram.jpg" alt="instagram" height="70" width="70" class="p-1">
-            <img src="img/facebook.png" alt="facebook" height="70" width="70" class="p-1">
-            <img src="img/twitter.jpg" alt="twitter" height="70" width="100" class="p-1">
-            <img src="img/correo.png" alt="instagram" height="70" width="70" class="p-1">
-        </div>
-    </div>
-    <div class="mt-4 p-5 negro text-white rounded row justify-content-center centrartexto align-items-center g-2 mt-2">
-        <div>
-            <a class="volverconlogo" href="index.html"></a>
-            <img src="img/logo.png" alt="logo" height="128" width="128" class="mx-auto d-block rounded-circle">
-            </a>
-            <form action="/action_page.php">
-                <div class="mb-3 mt-3">
-                    <label for="email" class="form-label">Ingresa el correo dueño de la cuenta:</label>
-                    <input type="email" class="form-control" id="email" placeholder="Ingresa Correo" name="email">
+    <header>
+        <section class="popular container">
+            <div class="mt-4 p-5 fondo text-white rounded row justify-content-center centrartexto align-items-center g-2 mt-2">
+                <div>
+                    <a class="volverconlogo" href="index.html"></a>
+                    <img src="img/logo.png" alt="logo" height="128" width="128" class="mx-auto d-block rounded-circle">
+                    <form action="/action_page.php">
+                        <div class="mb-3 mt-3">
+                            <label for="email" class="form-label">Ingresa el correo dueño de la cuenta:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingresa Correo" name="email">
+                        </div>
+                        <a href="contrasena.html" class="btn btn-primary" role="button" data-bs-toggle="button">Enviar correo de restablecimiento</a>
+                    </form>
                 </div>
-                <a href="contrasena.html" class="btn btn-primary" role="button" data-bs-toggle="button">Enviar correo de restablecimiento</a>
-            </form>
-        </div>
-    </div>
-
+        </section>
 </body>
 
 </html>
