@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panel de control - Otaku Odyssey</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Reddit+Mono:wght@200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/estiloadmin.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="d-flex">
+        <div id="sidebar-container">
+            <div class="logo">
+                <a href="admin.html"><img src="img/logo.png" alt="logo" height="128" width="128" class="p-4 rounded-circle"></a>
+            </div>
+            <div class="menu">
+                <a style="text-decoration: none;" href="pedidos.html" class="d-block p-3 text-light"><i
+                        class="icon ion-md-apps mr-2 lead"></i> Pedidos</a>
+                <a style="text-decoration: none;" href="usuarios.html" class="d-block p-3 text-light"><i
+                        class="icon ion-md-contacts mr-2 lead"></i> Usuarios</a>
+                <a style="text-decoration: none;" href="estadisticas.html" class="d-block p-3 text-light"><i
+                        class="icon ion-md-stats mr-2 lead"></i> Estadisticas</a>
+                <a style="text-decoration: none;" href="perfil.html" class="d-block p-3 text-light"><i
+                        class="icon ion-md-contact mr-2 lead"></i> Perfil</a>
+            </div>
+        </div>
+<div>
+    
+</div>
+<div class="fondoconstraste text-white style="width:100%"">
+    <div>
+        <h2>Ventas</h2>
+        <h2>Mangas</h2>
+        <div class="progress">
+            <div class="progress-bar bg-danger" style="width:50%">34.477.775$</div>
+        </div>
+        <h2>Figuras</h2>
+        <div class="progress">
+            <div class="progress-bar bg-warning" style="width:35%">24.134.442$</div>
+        </div>
+        <h2>Accesorios</h2>
+        <div class="progress">
+            <div class="progress-bar bg-success" style="width:15%">10.343.332$</div>
+        </div>
+        <h2>Ganancias estimadas:</h2>
+        <h1>68955550$</h1>
+    </div>
+    <div class="fondoconstraste centrar">
+        <div id="populares" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#populares" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#populares" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#populares" data-bs-slide-to="2"></button>
+            </div>
+            
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/madara.jpg" alt="Los Angeles" class="d-block" height="380px" width="780px">
+                <div class="carousel-caption">
+                  <h3>Madara Uchiha figura a escala</h3>
+                  <p>Ventas: 140</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/zenitsu.png" alt="Chicago" class="d-block" height="380px" width="780px">
+                <div class="carousel-caption">
+                  <h3>Chicago</h3>
+                  <p>Thank you, Chicago!</p>
+                </div> 
+              </div>
+              <div class="carousel-item">
+                <img src="img/shingeky.jpg" alt="New York" class="d-block" height="380px" width="780px">
+                <div class="carousel-caption">
+                  <h3>New York</h3>
+                  <p>We love the Big Apple!</p>
+                </div>  
+              </div>
+            </div>
+            
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#populares" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#populares" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+    </div>
+</div>
+
+    </div>
+</body>
+
+</html>

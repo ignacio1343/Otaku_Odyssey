@@ -11,10 +11,28 @@ body{
     background-color:black;
 }
 
+.fondoconstraste{
+    background-color: rgb(3, 10, 47);
+}
+
 #logo{
     padding: 1.25rem;
 }
 
 #menu{
     width: 18rem;
+}
+
+.fondo{
+    background-color:rgb(231, 213, 201);
+}
+
+.centrartexto {
+    text-align: center;
+}
+
+.centrar{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
