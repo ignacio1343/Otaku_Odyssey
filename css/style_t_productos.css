@@ -23,13 +23,8 @@ img {
 }
 
 .header {
-    background-image: url("https://previews.123rf.com/images/mbgraphicdesign/mbgraphicdesign2306/mbgraphicdesign230600768/206806704-fondo-de-pantalla-de-anime-de-paisaje-mágico.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    min-height: 80vh;
+    background-color:#2A223A;
+    min-height: 15vh;
     padding: 0px 0;
 }
 

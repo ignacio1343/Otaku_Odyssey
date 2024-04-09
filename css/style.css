@@ -9,6 +9,8 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #1b1726;
 }
@@ -18,8 +20,9 @@ img {
 }
 
 .container {
-    max-width: 1300px;
-    margin: 0px auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .header {
@@ -30,10 +33,11 @@ img {
     display: flex;
     align-items: center;
     min-height: 80vh;
-    padding: 0px 0;
+    padding: 20px 0;
 }
 
 .menu {
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -61,6 +65,28 @@ img {
     padding: 20px;
     color: white;
     display: block;
+}
+
+.navbar{
+    display: block;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
 
 .menu .navbar ul li a:hover {
@@ -118,8 +144,8 @@ table {
 }
 
 .header-content {
-    padding-right: 20%;
-    display: flexbox;
+    text-align: center;
+    padding: 20px 0;
 }
 
 .header-txt {
@@ -140,14 +166,25 @@ table {
 .header-txt p {
     font-size: 17px;
     color: #E0E0E0;
-    margin-bottom: 45px;
+    margin-bottom: 20px;
 }
 
 .buttons {
     display: flex;
+    margin-top: 20px;
 }
 
-.btn-1, .btn-2, .btn-3 {
+.btn-1 {
+    display: flex;
+    padding: 11px 35px;
+    border: 2px solid orangered;
+    border-radius: 25px;
+    margin-right: 25px;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.btn-2, .btn-3 {
     display: inline-block;
     padding: 11px 35px;
     border: 2px solid orangered;
@@ -155,6 +192,7 @@ table {
     margin-right: 25px;
     font-size: 17px;
     color: #FFFFFF;
+    margin-top: 20px;
 }
 
 .btn-1:hover {
@@ -174,6 +212,7 @@ h2 {
 
 .popular-content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -187,6 +226,8 @@ h2 {
 }
 
 .product-content {
+    display: flex;
+    flex-wrap: wrap;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
@@ -197,7 +238,13 @@ h2 {
 }
 
 .product-1 {
+    margin: 10px;
     background-color: #2A223A;
+}
+
+.product-1 img {
+    max-width: 100%;
+    height: auto;
 }
 
 .product-txt {
@@ -285,4 +332,38 @@ input {
 
 .link ul li > a:hover {
     color: #ff5a2c;
+}
+
+@media (max-width: 768px) {
+    .header-txt h1 {
+        font-size: 24px;
+    }
+
+    .popular-content,
+    .product-content {
+        justify-content: flex-start;
+    }
+
+    .product-1{
+        justify-content: flex-start;
+    }
+
+@media (max-width: 480px) {
+    .header-txt h1 {
+        font-size: 20px;
+    }
+
+    .btn-1, .btn-2, .btn-3 {
+        margin-top: 10px;
+    }
+    }
+
+    .popular-content,
+    .product-content {
+    justify-content: flex-start;
+    }
+
+.product-1{
+    justify-content: flex-start;
+}
 }
