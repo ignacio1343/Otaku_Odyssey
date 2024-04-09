@@ -36,3 +36,22 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.home {
+    display: flex;
+}
+
+.in-flex {
+    flex: 1;
+}
+
+.in-flex:first-child {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.in-flex div{
+    background-color: #fff;
+}
